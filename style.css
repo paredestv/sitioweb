@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.sn-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 1200px;
+}
+.news-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.news-card h5, h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 15px;
+    color: #171718;
+}
+
+.news-card p {
+    font-size: 1rem;
+    color: #0c0c0c;
+}
+
+.news-card .card-body {
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.share-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.share-button {
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.share-button.facebook { background-color: #3b5998; }
+.share-button.twitter { background-color: #55acee; }
+.share-button.linkedin { background-color: #0077b5; }
+.share-button.whatsapp { background-color: #25d366; }
+.share-button.instagram { background-color: #e1306c; }
+.share-button.telegram { background-color: #0088cc; }
+
+.share-button:hover {
+    opacity: 0.9;
+}
+
+a{
+    text-decoration:none;
+}
+
+h1 {
+    margin: 0 0 15px 0;
+    padding: 0;
+    color: #000000;
+    font-weight: 600;
+    }
+
+    .footer {
+        background-color: #2a2a2a;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    p{
+        color: #000000;
+        text-align: center;
+    }
+    section, p{
+        text-align:left;
+        color: #000000;
+    }
